@@ -1,10 +1,10 @@
-# Task Progress: Update Client and Property Names in Latest Reservations
+# Vercel Deployment Fix Progress
 
-## Steps from Approved Plan:
-- [x] Create TODO.md to track progress
-- [ ] Edit src/App.jsx: Add className="client-property" to client and property <td> elements
-- [ ] Edit src/styles.css: Add .client-property CSS rule with specified styles
-- [ ] Test changes (run `npm run dev` if needed)
-- [ ] Mark complete and attempt_completion
-
-Current step: Editing files...
+## Steps:
+- [x] Understand error: Permission denied on vite binary (Vercel npm install issue)
+- [x] Create plan: Add vercel.json with npm ci installCommand
+- [x] Create vercel.json
+- [ ] Test: Commit/push to GitHub main, trigger Vercel redeploy
+- [ ] Verify deployment succeeds (check Vercel dashboard/logs)
+- [ ] Update TODO.md complete
+- [ ] attempt_completion
